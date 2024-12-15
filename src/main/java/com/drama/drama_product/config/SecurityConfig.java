@@ -30,7 +30,7 @@ public class SecurityConfig {
             )
             
             // Usar la nueva sintaxis Lambda para deshabilitar el formulario de login
-            .formLogin(form -> form.disable());  // Deshabilita la página de login
+            .formLogin(form -> form.disable());  // Deshabilita la página de login nn
 
         return http.build();
     }
