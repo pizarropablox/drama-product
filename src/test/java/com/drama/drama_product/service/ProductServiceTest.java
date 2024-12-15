@@ -22,7 +22,7 @@ class ProductServiceTest {
     public ProductServiceTest() {
         MockitoAnnotations.openMocks(this);
     }
-
+ 
     @Test
 void testCreateProduct_Success() {
     Product product = new Product();
